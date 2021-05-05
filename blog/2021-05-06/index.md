@@ -1,8 +1,8 @@
 ---
 date: "2021-05-06"
 title: "そマ？"
-category: "Coding"
-tags: ['Technology', 'Coding']
+category: "Test"
+tags: ['Test']
 banner: "/assets/bg/4.jpg"
 ---
 マジ？
