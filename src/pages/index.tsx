@@ -32,7 +32,7 @@ const GridRow: any = styled.div`
     props.background
       ? `linear-gradient(
       -185deg,
-      ${rgba(darken(0.1, props.theme.colors.primary), 0.7)}, 
+      ${rgba(darken(0.1, props.theme.colors.primary), 0.7)},
       ${rgba(lighten(0.1, props.theme.colors.black), 0.9)}), url(${config.defaultBg}) no-repeat`
       : null};
   background-size: cover;
@@ -65,10 +65,10 @@ export default ({ data }: PageProps) => {
           <GridRow background={true}>
             <HomepageContent center={true}>
               <img src={config.siteLogo} alt={config.siteTitle} />
-              <h1>
-                Hi. I am <br />
-                Majid Hajian
-              </h1>
+              <h2>
+                私がPCの前に座ると、皆クスクスと笑い出した <br />
+                しかし、コーディングを始めると……？
+              </h2>
               <p>I write about Dart, Flutter, JavaScript, Angular, React, and ...</p>
               <Link to="/contact">
                 <Button big={true}>
